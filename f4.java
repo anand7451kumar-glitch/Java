@@ -3,6 +3,10 @@ import java.util.*;
 public class f4 {
     public static void printFactorial(int n) {
         //loop
+        if(n < 0) {
+            System.out.println("Invalid Number");
+            return;
+        }
         int factorial = 1;
 
         for(int i=n; i>=1; i--)  {
