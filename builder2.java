@@ -10,6 +10,7 @@ public class builder2 {
        sb.append("l");
        sb.append("o");
        System.out.println(sb);
+       System.out.println(sb.length());
  
 
        
